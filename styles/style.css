@@ -94,3 +94,22 @@ img{
     font-size: 4rem;
     font-weight: 700;
 }
+/* banner end */
+/* Habit-Card section start */
+.habit-section{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.habit-card-section{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.cards{
+    padding: 10px;
+}
+.cards img{
+    border-radius: 50%;
+}
+/* Habit-Card section end */
+/* Run-easily section start */
