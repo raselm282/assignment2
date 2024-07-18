@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0); 
+    color: white;
+
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+} 
+img{
+    width: 100%;
+    height: 100%;
+}
+.btn-primary{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+    font-size: 16px;
+
+}
+.heading-font{
+    font-family: "Michroma", sans-serif;
+    font-style: italic;
+}
+/* nav start */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.nav-title{
+    font-size: 34px;
+    font-style: italic;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+.nav-items p{
+    margin-left: 40px;
+}
+/* nav end */
+/* banner start */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.banner-image{
+    background-image: url(../images/Images\ 2.png);
+    background-size: cover;
+    background-position: center;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* .op{
+    background-color: transparent;
+} */
+.banner-img-card, .banner-img-card2{
+    width: 250px;
+    height: 150px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+h3{
+    font-size: 3rem;
+}
+.banner-img-card{
+    position: absolute;
+    margin-top: -400px;
+}
+.banner-img-card2{
+    position: absolute;
+    /* left: 50px;
+    top: 100px; */
+}
+#bgc{
+    background-color: red;
+    border-radius: 50%;
+}
+.banner-img-card2{
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+}
+.banner-title{
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: 900;
+
+}
+.p-fonts{
+    color: rgba(255, 255, 255, 0.5);
+ 
+}
+.p-font{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btnsss{
+    background-color: transparent;
+    border: 1px solid white;
+}
