@@ -2,81 +2,275 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Assignment2</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/e40d1d9c76.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <nav class="container navbar">
-        <h2 class="nav-title">Fitness</h2>
-        <div class="nav-items">
-            <p>Home</p>
-            <p>Service</p>
-            <p>Contact</p>
-            <p>About</p>
-        </div>
-        
-    </nav>
-    <div class="banner container">
-        <div class="banner-description">
-            <h3 class="banner-title">Get body in <span class="heading-font">shape</span> &stay healthy</h3>
-            <p class="p-font">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-            <div class="btns">
-                <button class="btn-primary">Join Club Now!</button><button class="btn-primary btnsss">Download App</button>
+    <header class="gradient bg-color">
+        <nav class="navbar container">
+            <h2 class="title">Fitness</h2>
+            <a href="nav.html"><i id="check" class="fa-solid fa-bars"></i></a>
+            <div class="nav-items color">
+                <a href="nav.html"><p class="btn-prime">Home</p></a>
+                <p>Service</p>
+                <p>Contact</p>
+                <p>About</p>
+                
+            </div>
+        </nav>
+        <div class="banner container">
+            <div class="banner-description">
+                <h2 class="banner-title color">Get body in <Span style="font-style: italic;">shape</Span> & stay healthy</h2>
+                <p class="p-font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ab sunt expedita nesciunt deserunt provident voluptatum repellendus eaque delectus repudiandae.</p>
+                <div class="btn" style="margin-right: 10px;">
+                    <button class="btn-primary">Join Club Now!</button><button class="btn-primary1 color">Download App</button>
+                </div>
+            </div>
+            <div class="banner-images">
+                <img src="./images/Images 2.png" alt="">
+                <button class="btn-master1">
+                    <div class="bg-colors"></div>
+                    <div>
+                        <h3 id="btn-title">350+</h3>
+                        <p id="btn-des">Video tutorial</p>
+                    </div>
+                </button>
+                <button class="btn-master2">               
+                    <div class="">
+                        <h3 id="btn-title">500+</h3>
+                        <p id="btn-des">Free Workout Videos</p>
+                    </div>
+                </button>                
             </div>
         </div>
-        <div class="banner-image">
-            <img src="./images/Images 2.png" alt="">
-            <button id="experience-badge" class="btn-primary">
-                <span class="experience-year">500+</span class>
-                <p>free Workout Videos</p>
-            </button>            
-            
-        </div>
-    </div>
-    <!-- main start -->
-    <main class="container">
-        <!-- Habit-Card section start -->
-        <div class="habit-section">
-            <h3 class="habit-title">Change Your Habits</h3>
-            <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia necessitatibus, libero perferendis harum dolores error. Sapiente omnis quibusdam maiores vel? Voluptates magnam distinctio omnis laboriosam atque in at sapiente!</p>
-            <div class="habit-card-section">
-                <div>
-                    <div class="cards">
-                        <img class="card-image" src="./images/image 2.png" alt="">
-                        <h4 class="card-title">Movement</h4>
-                        <p class="pfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+    </header>
+    <main>
+        <!-- habit-section start -->
+        <section class="bg-color">
+            <div class="container habit-section">
+                <div class="habit-titles" style="margin-bottom: 50px;">
+                    <h4 class="xl-font">Change Your Habits</h4>
+                    <p class="p-font" style="width: 70%; margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque saepe animi optio ipsam, dicta dolores soluta sequi porro? Ipsam?</p>
+                </div>
+                <div class="habit-card-section">
+                    <div>
+                        <div class="cards">
+                            <img class="card-image" src="./images/image 2.png" alt="">
+                            <h2 class="m-font">Movement</h2>
+                            <p class="p-font-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+                        </div>
                     </div>
+                    <div>
+                        <div class="cards">
+                            <img class="card-image" src="./images/image 3.png" alt="">
+                            <h2 class="m-font">Time</h2>
+                            <p class="p-font-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards">
+                            <img class="card-image" src="./images/image 4.png" alt="">
+                            <h2 class="m-font">Practice</h2>
+                            <p class="p-font-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards">
+                            <img class="card-image" src="./images/image 5.png" alt="">
+                            <h2 class="m-font">Wreight Loss</h2>
+                            <p class="p-font-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+                        </div>
+                    </div>                
+                </div>
+                
+            </div>
+        </section>
+        <!-- habit-section end -->
+        <!-- run-section start -->
+        <section class="bg-color">
+            <div class="run-section container">
+                <div class="run-description">
+                    <h2 class="xl-font">Run an Extra Mile Easily</h2>
+                    <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam nihil sunt provident mollitia placeat itaque soluta earum necessitatibus quo.</p>
+                    <button class="btn-primary">Join Now</button>
+                </div>
+                <div class="run-images">
+                    <img src="./images/run.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- run-section end -->
+        <!-- training-section srart -->
+        <section class="bg-color">
+            <div class="training-description">
+                <h2 class="xl-font">Training and Exercises</h2>
+                <p class="p-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quisquam doloremque repellat officiis ut accusantium illum libero exercitationem, distinctio excepturi eaque voluptatibus fuga, molestiae omnis ipsum ipsam sed beatae soluta!</p>
+            </div>
+            <div class="container exer2">
+                <div>
+                    <img src="./images/exercise1.jpg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
                 </div>
                 <div>
-                    <div class="cards">
-                        <img class="card-image" src="./images/image 3.png" alt="">
-                        <h4 class="card-title">Time</h4>
-                        <p class="pfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
-                    </div>
+                    <img src="./images/exercise2.png" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
+                </div>
+                <div class="dianne">
+                    <img src="./images/exercise3.png" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
+                </div>
+            </div>
+            <div class="container exer2">
+                <div>
+                    <img src="./images/exercise4.png" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
                 </div>
                 <div>
-                    <div class="cards">
-                        <img class="card-image" src="./images/image 4.png" alt="">
-                        <h4 class="card-title">Practice</h4>
-                        <p class="pfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+                    <img src="./images/exercise5.jpg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
+                </div>
+                <div class="dianne">
+                    <img src="./images/exercise6.jpg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam!</p>
+                </div>
+            </div>
+        </section>
+        <!-- training-section srart --> 
+        <!-- clculator-section start -->
+        <section class="bg-color">
+                <div class="bmi-titles">
+                    <h2 class="xl-font">BMI Calculator</h2>
+                    <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quaerat officia repellat dolor minima nemo explicabo aspernatur consequuntur amet incidunt.</p>
+                </div>
+                <div class="calculator-fields">
+                    <div class="calculator-field container">
+                        <div>
+                            <h2 class="l-font-bmi" style="margin-bottom: 50px;">BMI Calculator Chart</h2>
+                            <table id="table">
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Loss</th>
+                                </tr>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5-24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0-29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0-and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <h2 class="l-font-bmi">Calculate Your BMI</h2>
+                            <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint, excepturi reiciendis veritatis rem voluptatibus?</p>
+                            <div id="input-field">
+                                <input type="text" name="" id="select1" placeholder="Height/cm"><input type="text" name="" id="select1" placeholder="Weight/kg">
+                            </div><br>
+                            <div id="input-field">
+                                <input type="text" name="" id="select1" placeholder="Age"><select name="" id="select1" placeholder="Sex">
+                                    <option value="Sex">Sex</option>
+                                </select>
+                            </div><br>
+                            <select name="" id="select1" placeholder="Select an activity factor">
+                                <option value="Select an activity factor">Select an activity factor</option>
+                            </select> 
+                            <br><br>
+                            <button class="btn-primary">Calculator</button>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="cards">
-                        <img class="card-image" src="./images/image 5.png" alt="">
-                        <h4 class="card-title">Wreight Loss</h4>
-                        <p class="pfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus?</p>
+        </section>
+        <!-- calculator-section end -->
+        <!-- team-section srart -->
+        <section class="bg-color team-section">
+            <div class="team-description">
+                <h2 class="xl-font">Meet Our Team</h2>
+                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos optio nemo, laborum enim harum veritatis ad, cupiditate doloremque possimus, dignissimos repellendus temporibus labore? Sit vero doloremque quaerat minus quibusdam recusandae.</p>
+            </div>
+            <div class="team-images container">
+                <div class="image">
+                    <img src="./images/trainer1.png" alt="">
+                    <div class="name">
+                        <h3>Joreme Bell</h3>
+                        <p>Trainer</p>
                     </div>
-                </div>                
+                </div>
+                <div class="image cameron">
+                    <img src="./images/trainer2.png" alt="">
+                    <div class="name">
+                        <h3>Cameron Williamson</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/trainer3.png" alt="">
+                    <div class="name">
+                        <h3>Darrel Steward</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="image dianne">
+                    <img src="./images/trainer4.png" alt="">
+                    <div class="name">
+                        <h3>Dianne Russell</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/trainer5.png" alt="">
+                    <div class="name">
+                        <h3>Cody Fisher</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./images/trainer6.png" alt="">
+                    <div class="name">
+                        <h3>Theresa Webb</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- team-section end --> 
+        
+    </main> 
+    <!-- footer -->
+    <footer class="footer-sections">
+        <div class="footer-section container">
+            <div>
+                <h2 class="title">Fitness</h2>
+                <p id="footer-title" class="p-font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab tempore repellat libero reiciendis facere sit ipsum suscipit deserunt modi.</p>
+
+            </div>
+            <div class="services">
+                <div>
+                    <h3 class="l-font-bmi">Get Started</h3>
+                    <p id="footer-title" class="p-font">Service <br>Contact Us <br>Affiliate Program <br>About Us</p>
+                </div>
+                <div>
+                    <h3 class="l-font-bmi">Get Started</h3>
+                    <p id="footer-title" class="p-font">Fittness <br>Platform <br>Workout Libary <br>App Design</p>
+                </div>
             </div>
         </div>
-        <!-- Habit-Card section end -->
-        <!-- Run-easily section start -->
-
-        
-
-    </main>
-    
+        <div class="footer-hr container">
+            <hr>
+            <p class="footer-hr-p">All right reserved Fitness 2024</p>
+        </div>
+    </footer>
 </body>
 </html>
